@@ -6,6 +6,7 @@
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/raheemshah2809/Ultimate-Travel-Guide)
 ![GitHub issues](https://img.shields.io/github/issues/raheemshah2809/Ultimate-Travel-Guide)
 ![GitHub](https://img.shields.io/github/license/raheemshah2809/Ultimate-Travel-Guide)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/043fe2e3-8a28-4d1d-9397-f78bd657ad7e/deploy-status)](https://app.netlify.com/sites/tutg/deploys)
 
 This is my project page for my new and upcoming project. The gods guide to the world. 
 Here's A little Overview of how the project works. 
