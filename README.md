@@ -1,6 +1,6 @@
 # Ultimate-Travel-Guide
 
-[GitHub commit activity](https://img.shields.io/github/commit-activity/m/raheemshah2809/Ultimate-Travel-Guide)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/raheemshah2809/Ultimate-Travel-Guide)
 ![GitHub last commit](https://img.shields.io/github/last-commit/raheemshah2809/Ultimate-Travel-Guide)
 ![GitHub repo size](https://img.shields.io/github/repo-size/raheemshah2809/Ultimate-Travel-Guide)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/raheemshah2809/Ultimate-Travel-Guide)
