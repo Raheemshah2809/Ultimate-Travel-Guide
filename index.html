@@ -2,369 +2,408 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Ultimate Travel Guide</title>
-    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css">
-    <link href="assets/vendors/aos/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/vendors/jquery/jquery.min.js"></script>
-    <script src="assets/js/loader.js"></script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Ultimate Travel Guide</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="edica-loader"></div>
-    <header class="edica-header edica-landing-header">
+    <header id="header" class="header-tops">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                    data-target="#edicaMainNav" aria-controls="collapsibleNavId" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="edicaMainNav">
-                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="construction.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pricing.html">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Blog</a>
-                            <div class="dropdown-menu" aria-labelledby="blogDropdown">
-                                <a class="dropdown-item" href="construction.html">Blog Archive</a>
-                                <a class="dropdown-item" href="construction.html">Blog Post</a>
-                            </div>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                                <a class="dropdown-item" href="construction.html">404</a>
-                                <a class="dropdown-item" href="construction.html">Coming Soon</a>
-                            </div>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="construction.html">Contact</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span
-                                    class="flag-icon flag-icon-squared rounded-circle flag-icon-gb"></span> Eng</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Download</a>
-                        </li> -->
-                    </ul>
-                </div>
-            </nav>
-            <div class="edica-landing-header-content">
-                <div id="edicaLandingHeaderCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <!-- <li data-target="#edicaLandingHeaderCarousel" data-slide-to="0" class="active">01</li> -->
-                        <!-- <li data-target="#edicaLandingHeaderCarousel" data-slide-to="1">.02</li>
-                        <li data-target="#edicaLandingHeaderCarousel" data-slide-to="2">.03</li> -->
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>Welcome To The Ultimate Travel Guide</h1>
-                                    <p>Where People Come Together And Help Travellers Stay Safe In Foreign Countries For
-                                        Free.</p>
-                                    <div class="carousel-content-btns">
-                                        <a href="construction.html" class="btn btn-success"> <i
-                                                class="fab fa-apple mr-2"></i>
-                                            AppStore</a>
-                                        <a href="construction.html" class="btn btn-secondary">
-                                            <i class="fab fa-android mr-2"></i>
-                                            Google Play</a>
-                                        <a href="https://tutg-7afeb.web.app/" target="_blank" rel="noopener noreferrer"
-                                            class="btn btn-secondary">
-                                            Web (Alpha Version)</a>
-                                    </div>
-                                    <p class="dev1">This Website Is In Early Development You Will See Bugs And Uncompleted Pages. Please Bare With Us As We Try To Complete The Site. Thank you</p>
-                                </div>
-                                <!-- <div class="col-md-6 carousel-img-wrapper">
-                                    <img src="assets/images/earth.jpeg" alt="carousel-img" class="img-fluid"
-                                        width="350px">
-                                </div> -->
-                            </div>
-                        </div>
-                        <!-- <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>Get Started Power social proof for your brands.</h1>
-                                    <p>He has led a remarkable campaign, defying the traditional mainstream parties
-                                        courtesy of his En Marche! movement.</p>
-                                    <div class="carousel-content-btns">
-                                        <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> App
-                                            Store</a>
-                                        <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i>
-                                            Google Play</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 carousel-img-wrapper">
-                                    <img src="assets/images/Slider_1.png" alt="carousel-img" class="img-fluid"
-                                        width="350px">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>Get Started Power social proof for your brands.</h1>
-                                    <p>He has led a remarkable campaign, defying the traditional mainstream parties
-                                        courtesy of his En Marche! movement.</p>
-                                    <div class="carousel-content-btns">
-                                        <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> App
-                                            Store</a>
-                                        <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i>
-                                            Google Play</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 carousel-img-wrapper">
-                                    <img src="assets/images/Slider_1.png" alt="carousel-img" class="img-fluid"
-                                        width="350px">
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
+            <h1><a href="index.html">Ultimate Travel Guide</a></h1>
+            <h2>Where People Come Together And Help Travellers Stay Safe In Foreign Countries For Free.</h2>
+            <h2>This Website Is In Early Development You Will See Bugs And Uncompleted Pages. <br>
+                Please Bare With Us As We Try To Complete The Site. Thank you</h2>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
             </div>
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+    <section id="about" class="about">
 
-    <main>
-        <section class="edica-landing-section edica-landing-about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6" data-aos="fade-up-right">
-                        <h4 class="edica-landing-section-subtitle-alt">ABOUT US</h4>
-                        <h2 class="edica-landing-section-title">We Are A Brand New Start-Up To Help Travellers Stay Safe
-                            Around The Around The World</h2>
-                        <p>Here Are A Few Features Coming To Our App</p>
-                        <ul class="landing-about-list">
-                            <li> Daily Updated Hotel prices So you Don't Pay More Than You Should.</li>
-                            <li>Petrol Prices</li>
-                            <li>In-Depth guide of the country, written by users to help tourists stay away from tourist
-                                traps and properly explore the country. To Find The Hidden Gems</li>
-                            <li>Updates of current political tensions.</li>
-                            <li>Translator</li>
-                            <li>And Many More</li>
-                        </ul>
+        <div class="about-me container">
+
+            <div class="section-title">
+                <h2>About</h2>
+                <p>Who Are We</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="#" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>We Are A Brand New Start-Up To Help Travellers Stay Safe Around The Around The World. </h3>
+                    <p class="font-italic">
+                        Here Are A Few Features Coming To Our App
+                    </p>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="icofont-rounded-right"></i><strong>Daily Updated Hotel prices So you Don't Pay More Than You Should.
+                                </strong> 
+                                </li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Petrol Prices</strong></li>
+                                <li><i class="icofont-rounded-right"></i> <strong>In-Depth guide of the country, written by users to help tourists stay away from tourist traps and properly explore the country. To Find The Hidden Gems</strong></li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Updates of current political tensions.
+                                </strong></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="icofont-rounded-right"></i> <strong>Translator</strong></li>
+                                <li><i class="icofont-rounded-right"></i> <strong>And Many More</strong></li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- <div class="col-md-6" data-aos="fade-up-left">
-                        <img src="assets/images/phone-copy.png" width="468px" alt="about" class="img-fluid">
-                    </div> -->
+                    <p>
+                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci
+                        omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque
+                        neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni
+                        laudantium dolores.
+                    </p>
                 </div>
             </div>
-        </section>
 
-        <section class="edica-landing-section edica-landing-services">
-            <div class="container">
-                <h4 class="edica-landing-section-subtitle">Verified Users</h4>
-                <h2 class="edica-landing-section-title">Premium<br>Features For Verified Users</h2>
-                <div class="row">
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <img src="assets/images/picture.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Video Reviews</h4>
-                        <p class="service-card-description">Only Verifed Users Can Share Video Reviews, To Post To
-                            Country Pages</p>
+        </div><!-- End About Me -->
+
+        <!-- ======= Counts ======= -->
+        <div class="counts container">
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="icofont-simple-smile"></i>
+                        <span data-toggle="counter-up">50</span>
+                        <p>Add Title</p>
                     </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-left">
-                        <img src="assets/images/internet.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Secure and Reliable</h4>
-                        <p class="service-card-description">No Scammers Here, All Prices and Guides Are Checked Before
-                            They Are Posted.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                    <div class="count-box">
+                        <i class="icofont-document-folder"></i>
+                        <span data-toggle="counter-up">50</span>
+                        <p>Add Title</p>
                     </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-right">
-                        <img src="assets/images/goal.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Verified Users LeaderBoards (Still In Development)</h4>
-                        <p class="service-card-description">Most Votes At the End Of The Round Will Win Prizes, And You
-                            Will Be Showcased As The Best Reviewer For A Week</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="icofont-live-support"></i>
+                        <span data-toggle="counter-up">150</span>
+                        <p>Add Title</p>
                     </div>
-                    <div class="col-md-6 landing-service-card" data-aos="fade-left">
-                        <img src="assets/images/chat-bubble.svg" alt="card img" class="img-fluid service-card-img">
-                        <h4 class="service-card-title">Built-in Messenger</h4>
-                        <p class="service-card-description">Speak To Your Favorite Reviewer/Guide Directly For Advice.
-                            Or Any Guide/Reviewer</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="icofont-users-alt-5"></i>
+                        <span data-toggle="counter-up">150</span>
+                        <p>Add Title</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="interests container">
+
+            <div class="section-title">
+                <h2>Premium Features</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-video-line" style="color: #b2904f;"></i>
+                        <h3>Video Reviews</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-fingerprint-line" style="color: #b20969;"></i>
+                        <h3>Secure and Reliable</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-dashboard-2-fill" style="color: #ff5828;"></i>
+                        <h3>Verified Users LeaderBoards</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="ri-message-2-line" style="color: #29cc61;"></i>
+                        <h3>Built-in Messenger</h3>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- <section class="edica-landing-section edica-landing-testimonials" data-aos="fade-up">
-            <div class="container">
-                <div id="edicaLandingTestimonialCarousel" class="carousel slide landing-testimonial-carousel"
-                    data-ride="carousel">
-                    <div class="text-center py-4">
-                        <img src="assets/images/quote.svg" alt="quote">
-                    </div>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some
-                                    passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some
-                                    passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item active">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some
-                                    passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some
-                                    passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                        <div class="carousel-item">
-                            <blockquote class="testimonial">
-                                <p>“My mission in life is not merely to survive, but to thrive; and to do so with some
-                                    passion, some compassion, some humor, and some style.” </p>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="0">
-                            <img src="assets/images/oval-copy-3.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="1">
-                            <img src="assets/images/oval-copy-4.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="2" class="active">
-                            <img src="assets/images/oval.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
 
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="3">
-                            <img src="assets/images/oval-copy.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                        <li data-target="#edicaLandingTestimonialCarousel" data-slide-to="4">
-                            <img src="assets/images/oval-copy-2.png" alt="avatar">
-                            <div class="user-details">
-                                <h6>Gabie Sheber</h6>
-                                <p>Developer</p>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
+        </div>
+
+
+        <div class="testimonials container">
+
+            <div class="section-title">
+                <h2>Testimonials</h2>
             </div>
-        </section> -->
-    </main>
-    <section class="edica-footer-banner-section">
+
+            <div class="owl-carousel testimonials-carousel">
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                        malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                        minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
+                        velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
+                        veniam.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                </div>
+
+                <div class="testimonial-item">
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
+                        culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+                        quid.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="services" class="services">
         <div class="container">
-            <div class="footer-banner" data-aos="fade-up">
-                <h1 class="banner-title">Download Coming Soon!</h1>
-                <div class="banner-btns-wrapper">
-                    <a href="construction.html" button class="btn btn-success"> <img src="assets/images/apple@1x.svg"
-                            alt="ios" class="mr-2">Apple</a>
-                    </button>
-                    <button class="btn btn-success"> <img src="assets/images/android@1x.svg" alt="android" class="mr-2">
-                        Android</button>
-                    <a href="https://tutg-7afeb.web.app/" target="_blank" rel="noopener noreferrer"
-                        class="btn btn-secondary">
-                        Web-Version</a>
-                </div>
-                <p class="banner-text">Stay Tuned For An Update.</p>
+
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>My Services</p>
             </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4><a href="">Lorem Ipsum</a></h4>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <h4><a href="">Sed ut perspiciatis</a></h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <h4><a href="">Magni Dolores</a></h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <h4><a href="">Nemo Enim</a></h4>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-slideshow"></i></div>
+                        <h4><a href="">Dele cardo</a></h4>
+                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-arch"></i></div>
+                        <h4><a href="">Divera don</a></h4>
+                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
-    <footer class="edica-footer" data-aos="fade-up">
-        <div class="container">
-            <div class="row footer-widget-area">
-                <div class="col-md-3">
-                    <a href="mailto:fluorescentideasltd@gmail.com" p class="contact-details">Email Me</p><br>
-                        <!-- <nav class="footer-social-links">
-                            <a href="#!"><i class="fab fa-mail-bulk"></i></a>
-                            <a href="#!"><i class="fab fa-twitter"></i></a>
-                            <a href="#!"><i class="fab fa-behance"></i></a>
-                            <a href="#!"><i class="fab fa-dribbble"></i></a>
-                        </nav> -->
-                </div>
-                <div class="col-md-3">
-                    <nav class="footer-nav">
-                        <br>
-                        <a href="construction.html" class="nav-link">Company</a>
-                        <a href="construction.html" class="nav-link">Android App</a>
-                        <a href="construction.html" class="nav-link">ios App</a>
-                        <a href="construction.html" class="nav-link">Blog</a>
-                        <a href="construction.html" class="nav-link">Partners</a>
-                        <a href="construction.html" class="nav-link">Careers</a>
-                    </nav>
-                </div>
-                <div class="col-md-3">
-                    <nav class="footer-nav">
-                        <a href="construction.html" class="nav-link">FAQ</a>
-                        <a href="construction.html" class="nav-link">Reporting</a>
-                        <a href="construction.html" class="nav-link">Block Storage</a>
-                        <a href="construction.html" class="nav-link">Tools & Integrations</a>
-                        <a href="construction.html" class="nav-link">API</a>
-                        <a href="construction.html" class="nav-link">Pricing</a>
-                    </nav>
-                </div>
-                <div class="col-md-3">
-                    <div class="dropdown footer-country-dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="footerCountryDropdown"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="flag-icon flag-icon-gb flag-icon-squared"></span> United Kingdom <i
-                                class="fas fa-chevron-down ml-2"></i>
-                        </button>
 
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Contact Me</p>
+            </div>
+
+            <div class="row mt-2">
+
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-map"></i>
+                        <h3>My Address</h3>
+                        <p>Add Text</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-share-alt"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-envelope"></i>
+                        <h3>Email Me</h3>
+                        <p>Add Email Here</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box">
+                        <i class="bx bx-phone-call"></i>
+                        <h3>Call Me</h3>
+                        <p>0123456789</p>
                     </div>
                 </div>
             </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+                <div class="form-row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                            data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validate"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                        data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required"
+                        data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
         </div>
-        <div class="footer-bottom-content">
-            <nav class="nav footer-bottom-nav">
-                <a href="#!">Privacy & Policy</a>
-                <a href="#!">Terms</a>
-                <a href="#!">Site Map</a>
-            </nav>
-            <p class="mb-0">2021 <a href="https://fluorescentideasltd.com/" target="_blank" rel="noopener noreferrer"
-                    class="text-reset">©.fluorescent Ideas</a> . All rights reserved.</p>
-        </div>
-        </div>
-    </footer>
-    <script src="assets/vendors/popper.js/popper.min.js"></script>
-    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/aos/aos.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        AOS.init({
-            duration: 2000
-        });
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
